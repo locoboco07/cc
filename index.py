@@ -79,7 +79,7 @@ async def bin(bin1):
 
 @app.get("/")
 async def start():
-    return RedirectResponse("https://dibapp9.herokuapp.com/")
+    return RedirectResponse("http://3.90.108.64:8000/")
 
 
 class Item(BaseModel):
